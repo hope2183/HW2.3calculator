@@ -6,8 +6,9 @@ import org.springframework.stereotype.Service;
 public class CalculatorServiceImpl implements CalculatorServiceInterface {
 
     public String calculateSum(int num1, int num2) {
-        int sum = num1 + num2;
+        int sum = num1+num2;
         return "Sum is " + sum;
+
     }
 
     public String calculateMinusResult(int num1, int num2) {
